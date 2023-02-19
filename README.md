@@ -1,6 +1,7 @@
 # msp430-tiny-starter-kit
 ## Setup
-Install toolchain from https://www.ti.com/tool/MSP430-GCC-OPENSOURCE#downloads.
+- Install toolchain from https://www.ti.com/tool/MSP430-GCC-OPENSOURCE#downloads
+- Install `mspdebug` with `sudo apt install mspdebug`
 
 ## Use
 ### Compile

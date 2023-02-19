@@ -5,12 +5,12 @@
       "defines": [
         "__MSP430G2553__"
       ],
-      "compilerPath": "/usr/bin/msp430-elf-gcc",
+      "compilerPath": "/usr/bin/msp430-elf-gcc-link",
       "includePath": [
         "${workspaceFolder}/lib/tiny/include",
         "${workspaceFolder}/src",
         "${workspaceFolder}/src/hardware",
-        "/home/ryan/toolchain/msp430-gcc-9.3.1.2/include"
+        "/home/ryan/toolchain/msp430-gcc-9.3.1.11_linux64/include"
       ],
       "intelliSenseMode": "gcc-x64",
       "cStandard": "c11",
