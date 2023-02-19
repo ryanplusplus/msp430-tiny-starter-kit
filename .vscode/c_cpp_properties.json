@@ -10,7 +10,8 @@
         "${workspaceFolder}/lib/tiny/include",
         "${workspaceFolder}/src",
         "${workspaceFolder}/src/hardware",
-        "/home/ryan/toolchain/msp430-gcc-9.3.1.11_linux64/include"
+        "/home/ryan/toolchain/msp430-gcc-9.3.1.2_linux64/include",
+        "/home/ryan/toolchain/msp430-gcc-9.3.1.2_linux64/msp430-elf/include"
       ],
       "intelliSenseMode": "gcc-x64",
       "cStandard": "c11",

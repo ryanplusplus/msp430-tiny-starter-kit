@@ -1,6 +1,6 @@
 /*!
  * @file
- * @brief
+ * @brief 1 msec tick using Timer0 A0.
  */
 
 #ifndef system_tick_h
