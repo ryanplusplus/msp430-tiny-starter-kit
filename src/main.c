@@ -15,14 +15,27 @@
 
 int main(void)
 {
+	WDTCTL = WDTPW | WDTHOLD;		// stop watchdog timer
+	P1DIR |= 0x01;					// configure P1.0 as output
+
+	volatile unsigned int i;		// volatile to prevent optimization
+
+	while(1)
+	{
+		P1OUT ^= 0x01;				// toggle P1.0
+		for(i=10000; i>0; i--);     // delay
+	}
+
   // static tiny_timer_group_t timer_group;
 
-  P1SEL &= ~0x01;
-  P1DIR |= 0x01;
-  P1OUT |= 0x01;
+  // WDTCTL = WDTPW | WDTHOLD;
 
-  while(1) {
-  }
+  // // P1SEL &= ~0x01;
+  // P1DIR |= 0x01;
+
+  // while(1) {
+  //   P1OUT ^= 0x01;
+  // }
 
   // interrupts_disable();
   // {

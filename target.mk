@@ -4,7 +4,7 @@ TARGET := tiny
 MCU := msp430g2553
 BUILD_DIR := ./build
 
-MSPDEBUG_DEVICE ?= ezfet
+MSPDEBUG_DEVICE ?= tilib
 
 DEFINES := \
 

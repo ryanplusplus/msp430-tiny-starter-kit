@@ -1,7 +1,8 @@
 # msp430-tiny-starter-kit
 ## Setup
 - Install toolchain from https://www.ti.com/tool/MSP430-GCC-OPENSOURCE#downloads
-- Install `mspdebug` with `sudo apt install mspdebug`
+- Build `mspdebug` from https://github.com/dlbeer/mspdebug
+- Download Energia from https://energia.nu/download/, un-archive it, and copy `libmsp430.so` to `/usr/local/lib/`
 
 ## Use
 ### Compile
