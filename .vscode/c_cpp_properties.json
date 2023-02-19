@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "msp430g2553",
+      "defines": [
+        "__MSP430G2553__"
+      ],
+      "compilerPath": "/usr/bin/msp430-elf-gcc",
+      "includePath": [
+        "${workspaceFolder}/lib/tiny/include",
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/src/hardware"
+      ],
+      "intelliSenseMode": "gcc-x64",
+      "cStandard": "c11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
