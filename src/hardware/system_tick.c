@@ -39,7 +39,7 @@ i_tiny_time_source_t* system_tick_init(void)
   TA0CTL = TASSEL_2 | MC_1;
 
   // 1 msec tick
-  TA0CCR0 = (clock_frequency / 1000) - 1;
+  TA0CCR0 = (clock_smclk_frequency / 1000) - 1;
 
   // Enable capture/compare interrupt
   TA0CCTL0 = CCIE;
